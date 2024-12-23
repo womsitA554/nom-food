@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#0D5EF9"/> <!-- Màu nền bạn muốn -->
+    <corners android:bottomLeftRadius="16dp" android:bottomRightRadius="16dp"/> <!-- Bán kính góc tròn phía dưới -->
+</shape>

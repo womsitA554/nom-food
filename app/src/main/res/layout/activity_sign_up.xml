@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity.SignUpActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:fontFamily="@font/nunito_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/intro_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Sign up"
+        android:fontFamily="@font/nunito_regular"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Phone Number"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nunito_regular"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_input"
+        android:elevation="8dp"
+        android:gravity="start"
+        android:fontFamily="@font/nunito_regular"
+        android:hint="+84"
+        android:inputType="text"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/etInternational"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_input"
+        android:elevation="8dp"
+        android:fontFamily="@font/nunito_regular"
+        android:hint="Enter your phone number"
+        android:inputType="text"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnNext"
+        app:layout_constraintStart_toEndOf="@+id/etPhoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_login_background"
+        android:paddingVertical="20dp"
+        android:fontFamily="@font/nunito_regular"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPhoneNumber" />
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btnGoogle"-->
+<!--        android:layout_width="126dp"-->
+<!--        android:layout_height="54dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:background="@drawable/category_item_bg"-->
+<!--        android:drawableStart="@drawable/google_icon"-->
+<!--        android:drawablePadding="8dp"-->
+<!--        android:paddingHorizontal="20dp"-->
+<!--        android:text="Google"-->
+<!--    android:fontFamily="@font/nunito_regular"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/btnNext"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/btnNext"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnNext" />-->
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? "
+        android:fontFamily="@font/nunito_regular"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@id/btnSignIn"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/btnNext" />
+
+    <TextView
+        android:id="@+id/btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textColor="#0D5EF9"
+        android:textStyle="bold"
+        android:fontFamily="@font/nunito_regular"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

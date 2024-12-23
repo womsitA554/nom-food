@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "100195849671",
+    "firebase_url": "https://appfoodorderbtl-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "appfoodorderbtl",
+    "storage_bucket": "appfoodorderbtl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100195849671:android:3f82c4dfec6bf75dd635e2",
+        "android_client_info": {
+          "package_name": "com.example.nom_food_kotlin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcSjQE-6FbuD1F1429nYpDb40c7o_vF0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

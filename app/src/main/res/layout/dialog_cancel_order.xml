@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <RadioGroup
+        android:id="@+id/rgReasons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbOutOfStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_regular"
+            android:text="the store is currently overloaded."/>
+
+        <RadioButton
+            android:id="@+id/rbCustomerRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_regular"
+            android:text="delivery address too far"/>
+
+        <RadioButton
+            android:id="@+id/rbPaymentIssue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_regular"
+            android:text="customer provided incorrect information"/>
+
+        <RadioButton
+            android:id="@+id/rbBadWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_regular"
+            android:text="bad weather"/>
+
+        <RadioButton
+            android:id="@+id/rbOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_regular"
+            android:text="Other"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etDifferentReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter different reason here"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:fontFamily="@font/nunito_regular"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/login_input"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnCancelReason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito_regular"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_intro_bg"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/btnSubmitReason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:fontFamily="@font/nunito_regular"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_intro_bg"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</LinearLayout>

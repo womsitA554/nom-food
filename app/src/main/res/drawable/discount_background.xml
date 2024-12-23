@@ -1,0 +1,13 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="0"
+                android:startColor="#4685FC"
+                android:endColor="#0D5EF9"
+                android:type="linear" />
+<!--            <stroke android:width="4dp" android:color="#FFFFFF" /> &lt;!&ndash; Viền trắng 4dp &ndash;&gt;-->
+            <corners android:radius="20dp" /> <!-- Độ cong góc 20dp -->
+        </shape>
+    </item>
+</selector>

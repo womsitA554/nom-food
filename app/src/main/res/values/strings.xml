@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">nom_food_kotlin</string>
+    <string name="default_web_client_id">41908420096-sejv125mj3fdkkg8kcduvb4i7i3vhs14.apps.googleusercontent.com</string>
+    <string name="MY_API_KEY_MAP">AIzaSyA_0ZOhs50hs2SN6i8MVKkIikz5L12yFBk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="status_array">
+        <item>All</item>
+        <item>Success</item>
+        <item>Pending</item>
+        <item>Cancel</item>
+    </string-array>
+</resources>
